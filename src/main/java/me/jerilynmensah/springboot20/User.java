@@ -1,9 +1,7 @@
 package me.jerilynmensah.springboot20;
 
 
-import org.hibernate.service.spi.InjectService;
 
-import javax.management.relation.Role;
 import javax.persistence.*;
 import java.util.Collection;
 

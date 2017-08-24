@@ -3,6 +3,7 @@ package me.jerilynmensah.springboot20;
 import javax.persistence.*;
 import java.util.Collection;
 
+
 @Entity
 public class Role {
     @Id
@@ -14,6 +15,7 @@ public class Role {
 
     @ManyToMany(mappedBy = "roles", fetch = FetchType.LAZY)
     private Collection<User> users;
+
 
     public long getId() {
         return id;
